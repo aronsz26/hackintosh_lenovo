@@ -115,19 +115,19 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>Add</key>
+	<dict>
+		<key>PciRoot(0x0)/Pci(0x2,0x0)
+</key>
+		<dict>
+			<key>device-id</key>
+			<data>Ig0AAA==</data>
+			<key>AAPL,ig-platform-id</key>
+			<data>AwAiDQ==</data>
+		</dict>
+	</dict>
 	<key>DeviceProperties</key>
 	<dict>
-		<key>Add</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)
-</key>
-			<dict>
-				<key>device-id</key>
-				<data>Ig0AAA==</data>
-				<key>AAPL,ig-platform-id</key>
-				<data>AwAiDQ==</data>
-			</dict>
-		</dict>
 		<key>Block</key>
 		<dict/>
 	</dict>
@@ -409,6 +409,8 @@
 		</array>
 		<key>Security</key>
 		<dict>
+			<key>SecureBootModel</key>
+			<string>Disabled</string>
 			<key>AllowNvramReset</key>
 			<true/>
 			<key>AllowSetDefault</key>
@@ -438,6 +440,18 @@
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
 			</dict>
+			<key>Block</key>
+			<dict>
+				<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+				<array>
+					<string>UIScale</string>
+					<string>DefaultBackgroundColor</string>
+				</array>
+				<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+				<array>
+					<string>boot-args</string>
+				</array>
+			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
@@ -452,18 +466,6 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 			</dict>
-		</dict>
-		<key>Block</key>
-		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<array>
-				<string>UIScale</string>
-				<string>DefaultBackgroundColor</string>
-			</array>
-			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<array>
-				<string>boot-args</string>
-			</array>
 		</dict>
 		<key>LegacyEnable</key>
 		<true/>
@@ -507,17 +509,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>D25519404CDF8YLCB</string>
+			<string>D25430102GUG36DA8</string>
 			<key>ROM</key>
 			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac14,2</string>
+			<string>iMac14, 4</string>
 			<key>SystemSerialNumber</key>
-			<string> D25PP00VF8JC</string>
+			<string>D25N41Z0FY0T</string>
 			<key>SystemUUID</key>
-			<string>8B03BB37-2B63-40C7-A7E2-5706440FC485</string>
+			<string>57660DAE-55C3-4604-BE82-27BC3D2B2A6B</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
